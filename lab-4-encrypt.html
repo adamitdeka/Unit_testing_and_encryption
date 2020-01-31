@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Encrypt Your Password</title>
+		<!--SCRIPTS GO HERE -->
+		<script src="libs/md5.js"></script>
+		<script src="libs/sha1.js"></script>
+
+	</head>
+
+<body>
+	<div id="getMD5">
+		<h1>Password Encryption with JavaScript</h1>
+        <form name="sha1form">
+			<fieldset>
+				<legend>Hash your password into MD5</legend>
+				
+				<label for="sha1form__txt">Enter your password:</label>
+				<input type="text" id="sha1form__txt" name="sha1form__input"/>
+
+				<br />
+
+				<input type="submit" value="Encrypt!"/>
+			</fieldset>
+		</form>
+
+		<div id="output"></div>
+	</div>
+	<script src="lab-4-encrypt.js"></script>
+</body>
+</html>
